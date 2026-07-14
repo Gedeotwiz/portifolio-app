@@ -43,3 +43,10 @@ const findLetter = word[2]
 
 console.log( findLetter)
 console.log(word.toString())
+
+const newWord = word.join("")
+console.log(newWord)
+
+const array = ['H', 'e', 'l', 'l', 'o', '  ', 'w', 'o', 'r', 'd', '!']
+array.pop()
+console.log(array.join(""))
