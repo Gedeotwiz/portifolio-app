@@ -37,7 +37,7 @@ const book = {
     publishedAt:2005,
     price:5000
 }
-console.log(typeof book, book)
+console.log(book.title)
 
 
 
