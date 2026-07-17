@@ -41,4 +41,10 @@ console.log(book.title)
 
 
 
- 
+const variableName = 'Gedeon'
+console.log(`My name is ${variableName}`)
+
+const date = "1/2/2026"
+
+const paragraph = `On ${date} we will starting new programing language and learn how it work`
+console.log(paragraph)
