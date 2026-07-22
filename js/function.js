@@ -140,3 +140,13 @@ console.log(checkVotingAge(18))
 console.log(checkVotingAge(19))
 console.log(checkVotingAge(16))
 
+function checkResult(mark){
+  if( mark >= 50){
+    return "You passed."
+  }else{
+    return "You failed."
+  }
+}
+
+console.log(checkResult())
+
